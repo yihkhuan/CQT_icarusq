@@ -1,0 +1,26 @@
+[
+    {
+        "name": "get_dac_sampling_rate",
+        "type": "get",
+        "endpoint": "/dac/sampling_rate",
+        "parameters":[]
+    },
+    {
+        "name": "set_dac_sampling_rate",
+        "type": "post",
+        "endpoint": "/dac/sampling_rate",
+        "parameters":["rate"]
+    },
+    {
+        "name": "get_dac_delay",
+        "type": "get",
+        "endpoint": "/dac/delay",
+        "parameters":["channel"]
+    },
+    {
+        "name": "set_dac_delay",
+        "type": "post",
+        "endpoint": "/dac/delay",
+        "parameters":["channel", "delay"]
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "name": "",
+        "type": "post/get",
+        "endpoint": "",
+        "parameters":[{
+            "channel":"",
+            "value":"delay/rate"
+            }]
+    }
+]
